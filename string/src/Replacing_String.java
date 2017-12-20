@@ -1,0 +1,15 @@
+
+public class Replacing_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		  {  
+		        String str = "The quick brown fox jumps over the lazy dog.";  
+		        String new_str = str.replaceAll("fox", "cat");  
+		        System.out.println("Original string: " + str);  
+		        System.out.println("New String: " + new_str);  
+		    }  
+		}  
+}

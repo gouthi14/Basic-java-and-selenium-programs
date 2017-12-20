@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.basic.Sum_Avarege&apos; to &apos;Sum_Avarege_do_while&apos;&#x0D;&#x0A;- Original project: &apos;String_Examples_partice&apos;&#x0D;&#x0A;- Original element: &apos;com.basic.Sum_Avarege&apos;&#x0D;&#x0A;- Renamed element: &apos;com.basic.Sum_Avarege_do_while&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Sum_Avarege&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.basic{Sum_Avarege.java[Sum_Avarege" matchStrategy="1" name="Sum_Avarege_do_while" qualified="false" references="true" similarDeclarations="false" stamp="1494356875187" textual="false" version="1.0"/>
+</session>

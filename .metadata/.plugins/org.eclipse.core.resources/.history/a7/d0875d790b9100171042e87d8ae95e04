@@ -1,0 +1,38 @@
+package Assignment;
+
+public class SquareRoot {
+	
+	
+	public static void root(Double num){
+		
+		boolean ispositive=false;
+		double t;
+		if(num==0){
+			System.out.println("Squre root is : 0");
+		}
+		else if(num<0){
+			num=-num;
+			ispositive=false;
+		}
+		
+		double sqr=num/2;
+		do{
+			t=sqr;
+			sqr=(t+(num/t))/2;
+		}
+		while((t-sqr)!=0);
+		if(ispositive){
+			System.out.println("Square root of"+num+"are");
+			System.out.println("+"+sqr+"i");
+			System.out.println("+"+sqr+"i");
+		}
+		
+	}
+
+	public static void main(String[] args) {
+	
+		SquareRoot.root(45.00);
+
+	}
+
+	}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15526" started-at="2017-04-04T05:36:30Z" finished-at="2017-04-04T05:36:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15526" started-at="2017-04-04T05:36:30Z" finished-at="2017-04-04T05:36:46Z">
+      <class name="testng.First">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.First@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="15197" started-at="2017-04-04T01:36:30Z" finished-at="2017-04-04T01:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testng.First@6a4f787b]" name="f" duration-ms="270" started-at="2017-04-04T01:36:45Z" finished-at="2017-04-04T01:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testng.First -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite1]">
+  <test name="test1(failed)">
+    <groups>
+      <run>
+        <include name="Partial_LinkText"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcase.TestNG_Grouping">
+        <methods>
+          <include name="ContactWithPartial_LinkText"/>
+          <include name="SigninwithPartialLinkText"/>
+          <include name="SupportWithPartial_LinkText"/>
+          <include name="beforeMethod"/>
+          <include name="VocationsWithPartialLinkText"/>
+        </methods>
+      </class> <!-- testcase.TestNG_Grouping -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [suite1] -->
